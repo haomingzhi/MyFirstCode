@@ -1,0 +1,6 @@
+framework module MyFirstCode {
+  umbrella header "MyFirstCode-umbrella.h"
+
+  export *
+  module * { export * }
+}

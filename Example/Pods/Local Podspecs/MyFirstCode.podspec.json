@@ -1,0 +1,27 @@
+{
+  "name": "MyFirstCode",
+  "version": "0.1.0",
+  "summary": "A short description of MyFirstCode.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/haomingzhi/MyFirstCode",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "haomingzhi": "1905058100@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/haomingzhi/MyFirstCode.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MyFirstCode/Classes/**/*",
+  "resource_bundles": {
+    "MyFirstCode": [
+      "MyFirstCode/Assets/*.png"
+    ]
+  }
+}

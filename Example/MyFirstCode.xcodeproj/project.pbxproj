@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		248867AF4DFCBC20E9F1941C /* Pods_MyFirstCode_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFirstCode_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		36D5FB0BF34F6705444F696B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		36D5FB0BF34F6705444F696B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4CF8F04528B49051EBAB9C8E /* Pods-MyFirstCode_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirstCode_Example.debug.xcconfig"; path = "Target Support Files/Pods-MyFirstCode_Example/Pods-MyFirstCode_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5F3D7177419AC30008738A3F /* Pods-MyFirstCode_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirstCode_Tests.release.xcconfig"; path = "Target Support Files/Pods-MyFirstCode_Tests/Pods-MyFirstCode_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MyFirstCode_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstCode_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,8 +64,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		768048D97DCF87CC5F6C2F62 /* Pods-MyFirstCode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirstCode_Example.release.xcconfig"; path = "Target Support Files/Pods-MyFirstCode_Example/Pods-MyFirstCode_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CCAE29CCBBF4C298990DEF83 /* MyFirstCode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyFirstCode.podspec; path = ../MyFirstCode.podspec; sourceTree = "<group>"; };
-		D117870202B86A2AFF5245A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CCAE29CCBBF4C298990DEF83 /* MyFirstCode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyFirstCode.podspec; path = ../MyFirstCode.podspec; sourceTree = "<group>"; };
+		D117870202B86A2AFF5245A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D8E224AC9A5F257BFAFD8CCE /* Pods_MyFirstCode_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFirstCode_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				63D9F2D916CC265575FEE315 /* Pods-MyFirstCode_Tests.debug.xcconfig */,
 				5F3D7177419AC30008738A3F /* Pods-MyFirstCode_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = haomingzhi;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = V4DH3DLY67;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 4CF8F04528B49051EBAB9C8E /* Pods-MyFirstCode_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V4DH3DLY67;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyFirstCode/MyFirstCode-Prefix.pch";
 				INFOPLIST_FILE = "MyFirstCode/MyFirstCode-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 768048D97DCF87CC5F6C2F62 /* Pods-MyFirstCode_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V4DH3DLY67;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyFirstCode/MyFirstCode-Prefix.pch";
 				INFOPLIST_FILE = "MyFirstCode/MyFirstCode-Info.plist";

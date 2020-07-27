@@ -1,0 +1,16 @@
+PODS:
+  - MyFirstCode (0.1.0)
+
+DEPENDENCIES:
+  - MyFirstCode (from `../`)
+
+EXTERNAL SOURCES:
+  MyFirstCode:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MyFirstCode: 682afd601247edd976f0afc513fc70c67258f7b1
+
+PODFILE CHECKSUM: a7a3db07b7c3d2e1142c09943e43f212b68e1d24
+
+COCOAPODS: 1.9.1
